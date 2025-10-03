@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="J1OYv7aFWLOJ:fi4%/I=">mySprite</variable><variable id=",yX)3j]%%(k*Ba2Babe=">waluigi with gun</variable><variable type="KIND_SpriteKind" id="+8jNdOx!5d/E=4HY.;8m">Player</variable><variable type="KIND_SpriteKind" id="U[4nS|_ViAxIMSVEY,,F">Projectile</variable><variable type="KIND_SpriteKind" id="|6OsBo4~p+zM~%R?Hp4`">Food</variable><variable type="KIND_SpriteKind" id="0X_;b)Dou::g)?9#mn1p">Enemy</variable><variable type="KIND_SpriteKind" id="F~!}MncrcgP;yK(8ul~~">StatusBar</variable><variable type="KIND_SpriteKind" id="wUmm.Y:=tY11r583gOeF">Text</variable></variables><block type="pxt-on-start" id="?Vr.4W?dB=Z9se#d@UI;" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=";TP%oJ;_s9.DMe^I6h!{"><field name="VAR" id=",yX)3j]%%(k*Ba2Babe=">waluigi with gun</field><value name="VALUE"><shadow type="math_number" id="OMOSmz;6D.sw0tSRfr$_"><field name="NUM">0</field></shadow><block type="spritescreate" id="UMALIP2/6(b`kO=%f%{0"><value name="img"><shadow type="screen_image_picker" id="x]GhPF#trMeqO!L|s#@L"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="E`Ir-IsPkDgC=v`K:~PO"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="arcade_character_loop_frames" id="uwm)49fg=Nr(DiZg)4*s"><value name="sprite"><block type="variables_get" id="w_J@0vSW17AzLgh:aA5R"><field name="VAR" id=",yX)3j]%%(k*Ba2Babe=">waluigi with gun</field></block></value><value name="frames"><shadow type="animation_editor" id="opLY)X`yt-R~KmC3N*a}"><field name="frames">[img`
+. . . a a a 1 5 . . . 
+. . a a a a a a a a . 
+. . d e e . . . . . . 
+. e d d e . . . . . . 
+. e d d e . . . . . . 
+. . e d d . . . . . . 
+. . e e d d d d d . . 
+. . . . . . . d d . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="z#K{,_X`g%p-[jzH`~V;"><field name="ms">500</field></shadow></value><value name="rule"><shadow type="arcade_character_make_rule" id="GWro%[h47ouZtl2_sUSD"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="p1"><shadow type="arcade_character_predicate" id="fy}^%22Mvp}qF/?J$t[B"><field name="predicate">Predicate.NotMoving</field></shadow></value><value name="p2"><shadow type="arcade_character_predicate" id="p28CS~3lX}^u,33l{+_["><field name="predicate">Predicate.NotMoving</field></shadow></value><value name="p3"><shadow type="arcade_character_predicate" id="(nZufXHn,]aATeK(NaZj"><field name="predicate">Predicate.NotMoving</field></shadow></value><value name="p4"><shadow type="arcade_character_predicate" id="p9!XG]~m^Vol)`mJM9N1"><field name="predicate">Predicate.NotMoving</field></shadow></value><value name="p5"><shadow type="arcade_character_predicate" id="q!*=PT`?-m-CdS.-_e;Q"><field name="predicate">Predicate.NotMoving</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
